@@ -50,10 +50,10 @@ namespace ClassMetotDemo
 
             foreach (Customer customer1 in customers)
             {
-                Console.WriteLine("Müşteri sırası: " + customer.Num);
-                Console.WriteLine("Müşteri T.C. no: " + customer.Id);
-                Console.WriteLine("Müşterinin ismi: " + customer.Name);
-                Console.WriteLine("Müşterinin soyismi: " + customer.Surname);
+                Console.WriteLine("Müşteri sırası: " + customer1.Num);
+                Console.WriteLine("Müşteri T.C. no: " + customer1.Id);
+                Console.WriteLine("Müşterinin ismi: " + customer1.Name);
+                Console.WriteLine("Müşterinin soyismi: " + customer1.Surname);
 
             }
 
