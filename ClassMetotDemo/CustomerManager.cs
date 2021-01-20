@@ -13,7 +13,7 @@ namespace ClassMetotDemo
             customer.Num = num;
 
             Console.Write("Eklemek istediğiniz müşterinin T.C. kimlik nosunu giriniz : ");
-            customer.Id = 5;
+            customer.Id = Console.ReadLine();
 
             Console.Write("Eklemek istediğiniz müşterinin adını giriniz:");
             customer.Name = Console.ReadLine();
@@ -35,7 +35,7 @@ namespace ClassMetotDemo
 
             Console.WriteLine(" Silmek istediğiniz müşterinin sırasını giriniz: ");
             num = Convert.ToInt32(Console.ReadLine());
-            customers[num].Id = 5;
+            customers[num].Id = "";
             customers[num].Name = "";
             customers[num].Surname = "";
 
